@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;600&family=Rajdhani:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+
+  background: url(/Images/2.jpg);
+  width: 100vh;
+  height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 110%;
+  cursor: pointer;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px 100px;
+}
+.logo {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 100;
+  color: #484747;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+}
+
+.navbar a {
+  display: flex;
+  display: inline-block;
+  /* display: inline-block; */
+
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 100;
+
+  color: #656565;
+  text-decoration: none;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 18px;
+  margin: 8px;
+}
+
+.navbar a:hover {
+  color: #b7b5b5;
+}
+.icon-pub {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 50px;
+  margin: 10px;
+}
+
+.icon-pub a {
+  color: #484747;
+  text-decoration: none;
+  justify-content: space-between;
+  font-size: 1.2em;
+  margin: 32px;
+}
+.icon-pub a:hover {
+  color: #ffffff;
+  transition: all 0.4s ease;
+}
+
+.aside-container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+  min-height: 20vh;
+  padding: 8rem;
+
+  font-family: "Rajdhani", sans-serif;
+}
+
+.aside-right {
+  padding: 1.3rem;
+  width: 18%;
+  /*  display: flex; */
+
+  color: rgb(146, 158, 157);
+  /*   align-items: center; */
+}
+
+.aside-right p {
+  /*  display: flex; */
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+
+  /*  justify-content: space-between; */
+}
+
+.aside-box {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 100%;
+  width: 100%;
+  margin-top: 160px;
+  margin-left: 147px;
+
+  /*  justify-content: space-between; */
+}
+.aside-box a {
+  color: #b7b7b7;
+  font-size: 2.1em;
+  align-items: center;
+
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
+.aside-box a:hover {
+  color: #ffffff;
+
+  border: 0.1px solid #000000;
+  border-radius: 23px;
+  padding: 16px;
+  background-color: #000000;
+}

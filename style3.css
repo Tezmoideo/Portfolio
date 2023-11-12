@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;600&family=Rajdhani:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+
+  background: url(/Images/3.jpg);
+  width: 100vw;
+  min-height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 110%;
+  cursor: pointer;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px 100px;
+}
+.logo {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 100;
+  color: #484747;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+}
+
+.navbar a {
+  display: flex;
+  display: inline-block;
+  /* display: inline-block; */
+
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 100;
+
+  color: #656565;
+  text-decoration: none;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 18px;
+  margin: 8px;
+}
+
+.navbar a:hover {
+  color: #b7b5b5;
+}
+.icon-pub {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 50px;
+  margin: 10px;
+}
+
+.icon-pub a {
+  color: #484747;
+  text-decoration: none;
+  justify-content: space-between;
+  font-size: 1.2em;
+  margin: 32px;
+}
+.icon-pub a:hover {
+  color: #ffffff;
+  transition: all 0.4s ease;
+}
+
+.aside-container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 170px;
+  min-height: 20vh;
+  padding: 5rem;
+
+  font-family: "Rajdhani", sans-serif;
+}
+.aside {
+  padding: 2rem;
+  width: 30%;
+
+  /* align-items: center; */
+}
+.aside h1 {
+  /*  display: flex; */
+
+  font-size: 0.9em;
+
+  letter-spacing: 4px;
+  color: #c6c6c6;
+}
+
+.aside-right {
+  padding: 2rem;
+  width: 28%;
+  /*  display: flex; */
+
+  color: rgb(146, 158, 157);
+  /*   align-items: center; */
+}
+
+.aside-right p {
+  /*  display: flex; */
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+
+  /*  justify-content: space-between; */
+}
