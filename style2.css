@@ -14,7 +14,7 @@ body {
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 100% 110%;
+  background-size: 110% 120%;
   cursor: pointer;
 }
 .header {
@@ -130,7 +130,7 @@ input {
   letter-spacing: 3px;
 }
 textarea {
-  width: 320px;
+  width: 310px;
   height: 100px;
   margin-bottom: 10px;
   padding-left: 11px;
