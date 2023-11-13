@@ -55,8 +55,12 @@ body {
   margin: 8px;
 }
 
+.navbar a:nth-child(2) {
+  color: rgb(172, 172, 172);
+}
+
 .navbar a:hover {
-  color: #b7b5b5;
+  transform: scale(1.1);
 }
 .icon-pub {
   position: fixed;

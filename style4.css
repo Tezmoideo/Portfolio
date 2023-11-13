@@ -32,22 +32,21 @@ body {
 .logo {
   font-family: "Rajdhani", sans-serif;
   font-weight: 100;
-  color: #484747;
+  color: #656565;
   text-decoration: none;
   font-size: 1.2em;
   text-transform: uppercase;
   letter-spacing: 20px;
 }
-
 .navbar a {
   display: flex;
   display: inline-block;
-  /* display: inline-block; */
 
   font-family: "Rajdhani", sans-serif;
   font-weight: 100;
 
   color: #656565;
+
   text-decoration: none;
   font-size: 0.8em;
   text-transform: uppercase;
@@ -55,8 +54,12 @@ body {
   margin: 8px;
 }
 
+.navbar a:nth-child(3) {
+  color: rgb(172, 172, 172);
+}
+
 .navbar a:hover {
-  color: #b7b5b5;
+  transform: scale(1.1);
 }
 .icon-pub {
   position: fixed;
